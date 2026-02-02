@@ -1,0 +1,14 @@
+.header {
+    color: #fff;
+}
+
+.header__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header__description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-style: italic;
+}

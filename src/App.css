@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 60px auto;
+  padding: 40px 32px;
+  background-color: #6397cc;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.12);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
