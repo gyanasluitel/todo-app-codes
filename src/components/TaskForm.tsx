@@ -5,13 +5,6 @@ interface TaskFormProps {
     onAdd: (title: string) => void;
 }
 
-// A simple form component to add new tasks
-// Controlled vs Uncontrolled components in React
-// Controlled components are those where form data is handled by the React component's state.
-// Uncontrolled components store their own state internally and you query the DOM using refs to get their current values.
-// In this example, we are using a controlled component approach where the input value is tied to the component's state.
-// This allows for easier validation, conditionally enabling/disabling buttons, and instant feedback to the user.
-// Here, we manage the input value using the useState hook and update it on every change event.
 const TaskForm = ({ onAdd }: TaskFormProps) => {
     const [title, setTitle] = useState("");
 
